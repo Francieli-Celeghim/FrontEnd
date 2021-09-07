@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+
+    background-image: url(/checkpoint01/img/Maringa.png);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 20px;
+    margin: 0;
+
+}
+
+header{
+
+    padding: 10px 20px;
+}
+
+.inline-block{
+    display: inline-block;
+    width: 30%;
+    border: 5px solid black;
+    
+}
+
+
+
+main p {
+    background-color: burlywood;
+    color: black;
+    padding: 10px 20px;
+
+}
+
+.video-youtube{
+    background-color: burlywood;
+    position: absolute;
+    right: 60px;
+    top: 50px;
+    border: 5px solid black;
+    
+}
+
