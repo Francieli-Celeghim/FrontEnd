@@ -4,7 +4,7 @@
 
 body {
 
-    background-image: url(/checkpoint01/img/Maringa.png);
+    background-image: url(../img/Maringa.png);
     height: 500px;
     background-position: center;
     background-size: cover;
