@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    
+}
+  
+
+
+header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+    flex-wrap: wrap;
+    background-color: blue;
+    z-index: 1;
+    font-size: 15px;
+    color: pink;
+  
+}
+
+header h1::first-letter{
+    color: red;
+}
+
+header a{
+    background-color: black;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header a:hover{
+    background-color: red;
+    color: black;
+}
+  
+ul{
+    display: flex;
+    color: black;
+    
+}
+  
+ul li{
+    margin-left: 4px;
+}
+  
+ul li a{
+    padding: 0.8rem;
+}
+
+#banner{
+    background-image: url(../img/eqdlepou0aus27a_xmgf.620.webp);
+    height: calc(100vh - 80px);
+    background-size: cover;
+    width: 100vw;
+}
+
+@media(max-width: 343px){
+    header li a{
+      padding: 5px;
+    }
+  
+    #banner{
+      height: calc(100vh - 103px);
+    }
+  
+    main{
+      padding: 15px 30px;
+    }
+}
+
+
+
+.titulo-anime div{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.secao{
+    float: left;
+    width: 49%;
+}
+
